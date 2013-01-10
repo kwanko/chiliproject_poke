@@ -1,0 +1,42 @@
+=== Chiliproject Poke plugin 0.0.1
+
+This is a Poke plugin for Chiliproject.
+
+ONLY compatible with Chiliproject 3.X NOT compatible with Chiliproject 2.X
+
+
+== Getting the plugin
+
+The newest version is always at {GitHub}[http://github.com/kwanko/chiliproject_poke].
+
+=== Feature
+
+Send a separate mail to a user to specify him that he has an action to do on an issue.
+
+
+=== Plugin installation
+
+
+1. Copy the plugin directory(chiliproject_poke) into the vendor/plugins or vendor/chiliproject_plugins directory
+   NOTE: The plugin directory must be chiliproject_poke!
+
+
+2. How to send a poke?
+   In the text of the comment, you put this syntax poke @LOGIN where LOGIN is the login saved into the database
+
+
+3. How to know that you have a poke ?
+   The user whose login is specified in the syntax poke @login will recieve a mail which subjet will begin by [ACTION EXPECTED]
+
+
+=== Changelog
+
+0.0.1 -> First commit.
+
+=== Contact info
+
+Arnauld NYAKU: arnauld.nyaku@gmail.com
+
+=== Licence
+
+The code is released under the GPLv2: http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
