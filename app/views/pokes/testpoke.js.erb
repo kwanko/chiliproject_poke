@@ -1,0 +1,7 @@
+<% if @unknown_logins.any? %>
+ if (0 != jQuery("#error-logins").length) jQuery("#error-logins").remove();
+ jQuery("#notes").after("<div id='error-logins' class='error-login'><%= l(:text_error_logins) %></div>");
+ jQuery("#error-logins").append("<%= escape_javascript(render :partial => 'testpoke', :locals => {:unknown_logins => @unknown_logins})%> ");
+<%else%>
+ jQuery("#force-submit-form").val("1");
+<%end%>

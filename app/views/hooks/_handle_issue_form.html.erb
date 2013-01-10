@@ -1,0 +1,7 @@
+<%#
+# To change this template, choose Tools | Templates
+# and open the template in the editor.
+%>
+<%= hidden_field_tag 'force-submit-form','0' %>
+<%= javascript_tag "addPokeIcon();" %>
+<%= javascript_tag "avoidIssueFormSubmit('#{url_for({:controller => "pokes", :action => "testpoke"})}');" %>
