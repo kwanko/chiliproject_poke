@@ -19,18 +19,17 @@ Send a separate mail to a user to specify him that he has an action to do on an 
 
 1. Copy the plugin directory(chiliproject_poke) into the vendor/plugins or vendor/chiliproject_plugins directory
 
-    NOTE: The plugin directory must be chiliproject_poke!
+   NOTE: The plugin directory must be chiliproject_poke!
 
 
 2. How to send a poke?
 
-    In the text of the comment, you put this syntax poke @LOGIN where LOGIN is the login saved into the database
-
+   In the text of the comment, you put this syntax poke @LOGIN where LOGIN is the login saved into the database
 
 
 3. How to know that you have a poke ?
 
-   The user whose login is specified in the syntax poke @login will recieve a mail which subjet will begin by [ACTION EXPECTED]
+  The user whose login is specified in the syntax poke @login will recieve a mail which subjet will begin by [ACTION EXPECTED]
 
 
 === Changelog
